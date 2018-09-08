@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<title></title>
+	</head>
+
+<body>
+
+		<center>
+		     	<h3>Formulario</h3>
+			<form>
+				<label for="texto"> Entrada de Texto</label>	
+				<input id="texto" type="text" placeholder="Entrada de texto" value="" required="">
+
+				<br>
+				<br>
+
+				<label for="correo">Entrada de Correo</label>
+				<input id="correo" type="email" placeholder="Entrada de correo" value="" required="">
+
+				<br>
+				<br>
+
+				<label for="contrasena">Entrada de contrasena</label>
+				<input id="contrasena" type="password" placeholder="Entrada de contrasena" value="" required="">
+
+				<br>
+				<br>
+
+				<input type="number" value="1" min="0" max="3">
+
+				<br>
+				<br>
+
+				<select>
+					<option>opcion numero 1</option>
+					<option>opcion numero 2</option>
+					<option>opcion numero 3</option>
+				</select>
+
+				<br>
+				<br>
+
+				<input type="checkbox" id="rojo"> <label for="rojo">Rojo</label>
+				<input type="checkbox" id="amarillo"> <label for="amarillo">Amarillo</label>
+				<input type="checkbox" id="rosado"> <label for="rosado">Rosado</label>
+
+				<br>
+				<br>
+
+				<input type="radio" id="blanco" name="radio" checked=""><label for="blanco">Blanco</label>
+				<input type="radio" id="Negro" name="radio"><label for="negro">Negro</label>
+				
+				<br>
+				<br>
+
+				<input type="submit" value="Enviar Formulario">
+
+	  	</form>
+        
+   </center>
+	</body>
+</html>
